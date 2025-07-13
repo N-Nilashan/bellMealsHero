@@ -8,14 +8,14 @@ export default function CurvedNavbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Left side navigation */}
           <div className="flex font-semibold text-[#201C1B] items-center space-x-8">
-            <button className="  rounded-full border border-slate-300 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 focus:bg-slate-800 focus:border-slate-800 cursor-pointer">
-
+            <button className="button2 inline-block relative overflow-hidden z-[1] text-[#090909] py-2 px-5 cursor-pointer text-[16px] rounded-full bg-[#e8e8e8] border border-[#e8e8e8] transition-all duration-200 ease-in hover:text-white hover:border-[#009087]">
               Home
             </button>
-            <button className="  rounded-full border border-slate-300 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 focus:bg-slate-800 focus:border-slate-800 cursor-pointer">
+
+            <button className="  button2 inline-block relative overflow-hidden z-[1] text-[#090909] py-3 px-7 cursor-pointer text-[18px] bg-[#e8e8e8] border border-[#e8e8e8] transition-all duration-200 ease-in hover:text-white hover:border-[#009087]">
               Business
             </button>
-            <button className="  rounded-full border border-slate-300 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 focus:bg-slate-800 focus:border-slate-800 cursor-pointer">
+            <button className="  button2 inline-block relative overflow-hidden z-[1] text-[#090909] py-3 px-7 cursor-pointer text-[18px] bg-[#e8e8e8] border border-[#e8e8e8] transition-all duration-200 ease-in hover:text-white hover:border-[#009087]">
               Careers
             </button>
           </div>
@@ -29,13 +29,13 @@ export default function CurvedNavbar() {
 
           {/* Right side navigation */}
           <div className="flex items-center text-[#201C1B] font-semibold space-x-8">
-            <button className="  rounded-full border border-slate-300 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 focus:bg-slate-800 focus:border-slate-800 cursor-pointer">
+            <button className=" button2 inline-block relative overflow-hidden z-[1] text-[#090909] py-3 px-7 cursor-pointer text-[18px] bg-[#e8e8e8] border border-[#e8e8e8] transition-all duration-200 ease-in hover:text-white hover:border-[#009087]">
               Contact
             </button>
-            <button className="  rounded-full border border-slate-300 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 focus:bg-slate-800 focus:border-slate-800 cursor-pointer">
+            <button className=" button2 inline-block relative overflow-hidden z-[1] text-[#090909] py-3 px-7 cursor-pointer text-[18px] bg-[#e8e8e8] border border-[#e8e8e8] transition-all duration-200 ease-in hover:text-white hover:border-[#009087]">
               Privacy
             </button>
-            <button className="  rounded-full border border-slate-300 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 focus:bg-slate-800 focus:border-slate-800 cursor-pointer">
+            <button className="  button2 inline-block relative overflow-hidden z-[1] text-[#090909] py-3 px-7 cursor-pointer text-[18px] bg-[#e8e8e8] border border-[#e8e8e8] transition-all duration-200 ease-in hover:text-white hover:border-[#009087]">
               Download
             </button>
           </div>

@@ -19,19 +19,20 @@ src: url("../public/fonts/BebasNeue-Regular.ttf");
 
 .button2 {
   box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
-  position: relative; /* reinforce */
+  position: relative;
   overflow: hidden;
   z-index: 1;
   color: #090909;
-  padding: 0.7em 1.7em;
+  padding: 0.5em 1.2em; /* reduced padding */
   cursor: pointer;
-  font-size: 18px;
-  border-radius: 0.5em;
+  font-size: 16px;       /* smaller font */
+  border-radius: 9999px; /* full rounded/pill shape */
   background: #e8e8e8;
   border: 1px solid #e8e8e8;
   transition: all 0.2s ease-in;
   display: inline-block;
 }
+  
 
 .button2:active {
   color: #666;
