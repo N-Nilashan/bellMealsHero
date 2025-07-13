@@ -1,4 +1,5 @@
 import React from 'react';
+import CountUp from './countUp';
 
 const Hero = () => {
   return (
@@ -14,27 +15,47 @@ const Hero = () => {
       </div>
 
       {/* Foreground content */}
-      <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="relative p-6 rounded-xl backdrop-blur-sm z-10 grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Left side */}
-        <div className="mt-[140px] ml-12">
-          <div className="font-bebas text-white leading-[5.5rem] text-8xl">
+        <div className="mt-[100px] ml-12">
+          <div className="font-bebas  text-white leading-[5.5rem] text-8xl">
             <p>FROM A VARIETY </p>
             <p>OF RESTAURENTS</p>
           </div>
-          <div className="mt-[150px]">
-            <div className=" p-6 rounded-xl backdrop-blur-sm w-[450px]">
+          <div className="mt-[50px]">
+            <div className=" ">
               <p className="font-menbere text-white text-lg">
                 FIND YOUR FAVOURITE DISH
               </p>
-              <p className="text-slate-200 text-lg mt-4">
+              <p className="text-slate-200 text-lg mt-4 mb-6">
                 Unlock a world of culinary delight! Download now,
                 <br />
                 subscribe for exclusive perks, and enjoy every bite.
               </p>
             </div>
 
+            <div className="flex gap-8 mt-[60px]">
+              <div className="text-white flex flex-col items-center text-center">
+                <div className="flex flex-col items-center justify-center">
+                  <h1 className="text-6xl font-bold leading-none">
+                    <CountUp target={27} className="text-white" />K+
+                  </h1>
+                  <p className="mt-2">Users using our service</p>
+                </div>
+              </div>
+
+              <div className="text-white flex flex-col items-center text-center">
+                <div className="flex flex-col items-center justify-center">
+                  <h1 className="text-6xl font-bold leading-none">
+                    <CountUp target={52} className="text-white" />K+
+                  </h1>
+                  <p className="mt-2">Orders served city-wide</p>
+                </div>
+              </div>
+            </div>
+
             {/* CTA Buttons */}
-            <div className="mt-8 flex gap-8 items-center rounded-xl backdrop-blur-sm w-[400px]">
+            <div className="mt-6 flex gap-8 items-center rounded-xl ">
               <span className="flex">
                 <button className="button2 inline-block relative overflow-hidden z-[1] text-[#090909] py-3 px-7 cursor-pointer text-[18px] rounded-[0.5em] bg-[#e8e8e8] border border-[#e8e8e8] transition-all duration-200 ease-in hover:text-white hover:border-[#009087]">
                   <span className="flex items-center gap-2">
@@ -59,7 +80,7 @@ const Hero = () => {
         <div>
           <img
             src="/burger.png"
-            className=" w-[800px] h-auto mt-12 max-w-none "
+            className=" w-[800px] h-auto mt-8 max-w-none "
           />
         </div>
       </div>
